@@ -150,7 +150,7 @@ foreach ($entriesTrans["raffinement"] as $key => $value) {
         $defRaff = getDefinition($pageRaff);
         if(isset($defRaff)){
         $entriesTrans["definition"].="<br>".$defRaff;
-        $lienR = "<a href='http://localhost/e-application/demo.php?terme=".$value."' class='raff'>".$value."</a><br>";
+        $lienR = "<a href='http://localhost/e-application/index.php?terme=".$value."' class='raff'>".$value."</a><br>";
     }
     $AffichageRaff .= $lienR;
 }
