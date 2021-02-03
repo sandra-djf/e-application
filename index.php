@@ -270,7 +270,7 @@ $tableauAffichage .="    </tbody>
                     <h1 class="mb-5 display-4 bg-dark">Le dictionnaire d'associations lexicales<br>contributif et libre de&nbsp;<a href="http://www.jeuxdemots.org/">JeuxDeMots</a></h1>
                 </div>
                 <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-                    <form class="search-form" action="demo.php" method="POST">
+                    <form class="search-form" action="index.php" method="POST">
                         <div class="input-group">
                             <input class="form-control" type="search" name="terme" id="terme" >
                             <div class="input-group-append"><button class="btn btn-light" type="submit" value="valider" type="button"><i class="fa fa-search"></i></button></div>
